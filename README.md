@@ -1,4 +1,2 @@
-<h1> Matlab Practic
-    
-</h1>
+<h1> Matlab </h1>
 
