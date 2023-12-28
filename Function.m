@@ -13,5 +13,18 @@ d = flipud(a)
 e = fliplr(a)
 
 % 전치 행렬
-a
-a'
+f = a'
+
+% size -> [n,m] Matix Size -> n m
+g = size(a)
+[g1, g2] = size(a)  % g1, g2 변수에 각각 행, 열 Size 저장
+
+% length -> 행, 열 크기 중 긴 것
+h = length(a)
+
+% help (docs)
+help length
+
+
+% Pratice [4,3] -> [1,12]
+reshape(a', 1, 12)
