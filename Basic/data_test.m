@@ -1,0 +1,1 @@
+[number, name, yyyy, month, dd, hh, mm, real, future, de] = textread('C:\Users\simon\OneDrive\바탕 화면\Simon\Matlab\Basic\거문도_실시간관측_조위.txt', '%u %s %u %u %u %u %u %u %u %u', 'headerlines', 1, 'delimiter', '-:');
